@@ -5,3 +5,25 @@ img {
 .w3-row-padding img {
   margin-bottom: 12px;
 }
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: inherit;
+}
+li {
+  display: inline;
+}
+li a{
+  text-decoration: none;
+  float: left;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 14px;
+  padding-left: 0;
+  transform: translate(-23px);
+}
+li a:hover{
+  color: grey;
+}
