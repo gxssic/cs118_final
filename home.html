@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script.js"></script>
+</head>
+<body style="background-color: #EBEBEB">
+
+<div class="w3-content" style="max-width:1500px">
+  <!-- Header -->
+  <div class="w3-clear"></div>
+  <header class="w3-center w3-margin-bottom w3-text-blue-grey">
+    <h1><b>Shots by D.</b></h1>
+    <p><b>A fake photography business.</b></p>
+  </header>
+
+  <!-- navigation toggle -->
+  <div class="w3-center">
+  <div class="w3-dropdown-click">
+    <button onclick="openNav()" class="w3-button w3-blue-grey w3-round">Navigation</button>
+    <div id="nav" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="home.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="booking.html" class="w3-bar-item w3-button">BOOKING</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- padding toggle button -->
+    <p class="w3-padding-16 w3-center"><button class="w3-button w3-white w3-opacity w3-round" onclick="toggleGrid()">Toggle Grid Padding</button></p>
+
+  <!-- Photo grid -->
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+      <div class="w3-quarter">
+        <img src="photos/1.jpg" style="width:100%" onclick="onClick(this)" alt="Blue shadow.">
+        <img src="photos/3.jpg" style="width:100%" onclick="onClick(this)" alt="Rain.">
+        <img src="photos/4.jpg" style="width:100%" onclick="onClick(this)" alt="Sign.">
+     </div>
+
+     <div class="w3-quarter">
+        <img src="photos/5.jpg" style="width:100%" onclick="onClick(this)" alt="Blues">
+        <img src="photos/6.jpg" style="width:100%" onclick="onClick(this)" alt="Sky">
+        <img src="photos/7.jpg" style="width:100%" onclick="onClick(this)" alt="Blue haze">
+      </div>
+
+      <div class="w3-quarter">
+        <img src="photos/8.jpg" style="width:100%" onclick="onClick(this)" alt="Blue">
+        <img src="photos/9.jpg" style="width:100%" onclick="onClick(this)" alt="Blue">
+        <img src="photos/10.jpg" style="width:100%" onclick="onClick(this)" alt="Blue">
+      </div>
+
+      <div class="w3-quarter">
+        <img src="photos/11.jpg" style="width:100%" onclick="onClick(this)" alt="hands">
+        <img src="photos/12.jpg" style="width:100%" onclick="onClick(this)" alt="Starry">
+        <img src="photos/13.jpg" style="width:100%" onclick="onClick(this)" alt="Blue">
+      </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
